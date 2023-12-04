@@ -1,0 +1,140 @@
+.Mobile {
+  text-align: left;
+  margin: 0 auto;
+  font-size: large;
+
+}
+
+body {
+background-image: url(images/Background.jpg);
+}
+
+.bio-title {
+max-width: 68.75rem;
+margin: auto;
+text-align: center;
+margin-top: 2.5rem;
+font-weight: var(--bold-font);
+font-size: larger;
+}
+
+.bio-text {
+max-width: 68.75rem;
+margin: auto;
+text-align: center;
+margin-top: 2.5rem;
+font-weight: var(--bold-font);
+font-size: larger;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  text-align: right;
+  justify-content: space-between;
+  
+  margin: auto;
+}
+nav h1 {
+  color: var(--primary-color);
+  text-align: center; 
+  margin: auto;
+}
+
+nav a {
+  color: var(--primary-color);
+  transition: var(--transition);
+  text-align: right;
+  margin: 0 auto;
+}
+nav a:hover {
+  color: var(--secondary-color);
+  border: 3px solid var(--secondary-color);
+  text-align: right;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  height: 60%;
+  width: 70%;
+  gap: 60px;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  font-weight: var(--bold-font);
+  font-size: larger;
+  
+}
+
+.skills {
+  border-radius: 0%;
+  max-width: 68.75rem;
+  margin:auto;
+  text-align: center;
+  margin-top: 2.5rem;
+  font-weight: var(--bold-font);
+  font-size: larger;
+  
+}
+
+.skill-bio {
+  margin-bottom: 1rem;
+  margin: auto;
+}
+
+.skills-text {
+  padding: 1.25rem;
+  margin: auto;
+}
+
+.socials {
+  border: solid;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 1%;
+  bottom: 50%;
+}
+
+.socicon {
+  width: 2rem;
+  height: 2rem;
+}
+
+#about-me{
+  width: 40%;
+  height: 50%;
+  padding: 0;
+  margin-right: 20px;
+  text-align: center;
+  font-weight: var(--bold-font);
+  font-size: larger;
+}
+
+#about-me-img{
+  border-radius: 0%;
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  margin-top: 2.5rem;
+  font-weight: var(--bold-font);
+  font-size: larger;
+}
+
+.icon-card{
+  width: 80%;
+  height: 70%;
+  padding: 0;
+  margin: 2% auto;
+  text-align: center;
+}
+
+.icon-card{
+  max-width: 80%;
+  max-height: 70%;
+  padding: 0;
+  margin: 0;
+}
